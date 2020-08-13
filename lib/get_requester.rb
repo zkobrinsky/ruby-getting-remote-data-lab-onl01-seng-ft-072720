@@ -1,6 +1,7 @@
 require 'net/http'
 require 'open-uri'
 require 'json'
+require 'pry'
 
 class GetRequester
 
@@ -18,6 +19,6 @@ class GetRequester
     JSON.parse(get_response_body)
   end
 
-
+binding.pry
 
 end
