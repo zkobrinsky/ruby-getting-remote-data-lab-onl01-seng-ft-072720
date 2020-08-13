@@ -19,6 +19,6 @@ class GetRequester
     JSON.parse(get_response_body)
   end
 
-binding.pry
+# binding.pry
 
 end
