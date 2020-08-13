@@ -8,6 +8,6 @@ class GetRequester
 
   end
 
-  
-  
+
+
 end
